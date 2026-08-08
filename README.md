@@ -2,7 +2,7 @@
 
 An interactive Power BI report consolidating **headcount, retention, and turnover** data into a single dashboard, enabling HR leadership to analyze workforce trends and support data-driven decision-making.
 
-![Cover Page](images/01_cover_page.png)
+![Cover Page](screenshots/01_cover_page.png)
 
 ---
 
@@ -23,32 +23,32 @@ Every page shares a common filter panel (slicer menu) available in the top-right
 ### 1. Cover Page
 Introduction to the report describing the content of each page.
 
-![Cover Page](images/01_cover_page.png)
+![Cover Page](screenshots/01_cover_page.png)
 
 ### 2. Headcount — Overview
 Workforce structure by department, job level, region, education, and demographics (age, ethnicity, marital status, gender).
 
-![Headcount Page](images/02_headcount_page.png)
+![Headcount Page](screenshots/02_headcount_page.png)
 
 ### 3. Headcount — Tooltip with Top 20 Highest/Lowest Earners
 Tooltip feature available on selected visuals, showing a list of the 20 highest- and lowest-paid employees along with hire date and salary.
 
-![Headcount Tooltip](images/03_headcount_tooltip.png)
+![Headcount Tooltip](screenshots/03_headcount_tooltip.png)
 
 ### 4. Headcount — Filter Panel (Slicer Menu)
 Filter panel available on every page of the report, allowing users to filter data across multiple dimensions at once.
 
-![Slicer Menu](images/04_headcount_slicers.png)
+![Slicer Menu](screenshots/04_headcount_slicers.png)
 
 ### 5. Employee Retention
 Analysis of the retention rate over time and comparison of retention by department and job level.
 
-![Retention Page](images/05_retention_page.png)
+![Retention Page](screenshots/05_retention_page.png)
 
 ### 6. Employee Turnover
 Analysis of the turnover rate, reasons for leaving, and the voluntary vs. involuntary split.
 
-![Turnover Page](images/06_turnover_page.png)
+![Turnover Page](screenshots/06_turnover_page.png)
 
 ---
 
@@ -71,7 +71,7 @@ The dashboard is powered by the `employees_source_data.csv` file, containing dat
 
 The model follows a star schema: a central fact table `people_fact` is related to a set of dimension tables describing each employee — `department_dim`, `job_level_dim`, `education_dim`, `location_dim`, `demographic_dim`, `marital_dim`, `manager_dim`, and `term_dim` (termination details).
 
-![Data Model](images/07_data_model.png)
+![Data Model](screenshots/07_data_model.png)
 
 **`Date_dim` as a disconnected parameter table:** `Date_dim` is not related to any other table in the model — there is no active relationship between `Date_dim` and `people_fact`. The table exists solely to drive the "Pick a Timeframe for the Report (Years)" slicer shown on every page of the report.
 
