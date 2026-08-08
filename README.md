@@ -20,32 +20,27 @@ Every page shares a common filter panel (slicer menu) available in the top-right
 
 ## 🖼️ Screenshots
 
-### 1. Cover Page
-Introduction to the report describing the content of each page.
-
-![Cover Page](screenshots/01_cover_page.png)
-
-### 2. Headcount — Overview
+### 1. Headcount — Overview
 Workforce structure by department, job level, region, education, and demographics (age, ethnicity, marital status, gender).
 
 ![Headcount Page](screenshots/02_headcount_page.png)
 
-### 3. Headcount — Tooltip with Top 20 Highest/Lowest Earners
+### 2. Headcount — Tooltip with Top 20 Highest/Lowest Earners
 Tooltip feature available on selected visuals, showing a list of the 20 highest- and lowest-paid employees along with hire date and salary.
 
 ![Headcount Tooltip](screenshots/03_headcount_tooltip.png)
 
-### 4. Headcount — Filter Panel (Slicer Menu)
+### 3. Headcount — Filter Panel (Slicer Menu)
 Filter panel available on every page of the report, allowing users to filter data across multiple dimensions at once.
 
 ![Slicer Menu](screenshots/04_headcount_slicers.png)
 
-### 5. Employee Retention
+### 4. Employee Retention
 Analysis of the retention rate over time and comparison of retention by department and job level.
 
 ![Retention Page](screenshots/05_retention_page.png)
 
-### 6. Employee Turnover
+### 5. Employee Turnover
 Analysis of the turnover rate, reasons for leaving, and the voluntary vs. involuntary split.
 
 ![Turnover Page](screenshots/06_turnover_page.png)
