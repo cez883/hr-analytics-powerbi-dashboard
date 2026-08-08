@@ -11,10 +11,10 @@ An interactive Power BI report consolidating **headcount, retention, and turnove
 The report lets users explore workforce data by department, job level, region, and demographics, with a flexible timeframe selector covering any period from 2017 onward. The dashboard consists of three main pages:
 
 - **Headcount** — workforce structure (department, job level, region, age, gender, ethnicity, education, marital status), with a dedicated tooltip feature showing the top 20 highest- and lowest-paid employees on hover.
-- **Employee Retention** — retention rate for the selected period, year-over-year trend, and retention comparison by department and job level (including a slope chart comparing 2023 vs. 2026).
+- **Employee Retention** — retention rate for the selected period, year-over-year trend, and a slope chart comparing retention between the first and last year of the selected range; the page includes a field parameter (dropdown menu) that lets users dynamically switch the comparison dimension in the slope chart — Department, City, Job Level, Age Group, Gender, Ethnicity, or Marital Status.
 - **Employee Turnover** — turnover rate, number of departures, year-over-year trend, voluntary vs. involuntary split, and reasons for leaving.
 
-Every page shares a common filter panel (slicer menu) available in the top-right corner, allowing filtering by: Age Group, Gender, Ethnicity, Department, Sub-department, Education and Job Level.
+Every page shares a common filter panel (slicer menu) available in the top-right corner, allowing filtering by: Age Group, Gender, Ethnicity, Department, Sub-department, Education, and Job Level.
 
 ---
 
@@ -36,7 +36,7 @@ Filter panel available on every page of the report, allowing users to filter dat
 ![Slicer Menu](screenshots/04_headcount_slicers.png)
 
 ### 4. Employee Retention
-Analysis of the retention rate over time and comparison of retention by department and job level.
+Retention rate analysis over time, including a field parameter that lets users dynamically switch the comparison dimension in the slope chart.
 
 ![Retention Page](screenshots/05_retention_page.png)
 
@@ -49,7 +49,7 @@ Analysis of the turnover rate, reasons for leaving, and the voluntary vs. involu
 
 ## 🗂️ Source Data
 
-The dashboard is powered by the `employees_source_data.csv` file, containing data for 599 employees, including:
+The dashboard is powered by the `employees_source_data.csv` file, containing data for 600 employees, including:
 
 | Category | Example Columns |
 |---|---|
