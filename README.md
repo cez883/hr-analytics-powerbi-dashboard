@@ -101,3 +101,11 @@ The timeframe selector (2017+) drives all pages of the report simultaneously.
 - **PowerPoint** - backgrounds and page layout
   
 ---
+
+## 📋 Next Steps
+
+- Compensation & Pay Equity page — pay gap analysis by gender, ethnicity and job level 
+- Employee Engagement & Performance page — a new page leveraging currently unused columns such as performance_rating, engagement_score, absence_days, overtime_hours, training_hours, promotion_last_3yrs.
+- Key Influencers (AI visual) for turnover — the built-in Power BI visual identifying which factors (e.g. engagement_score, overtime_hours, absence_days) correlate most strongly with employees leaving.
+- Decomposition tree for the organizational hierarchy — breaking down headcount by the reporting structure in manager_dim table
+- Drill-through employee profile page — a dedicated page with details for a single employee
